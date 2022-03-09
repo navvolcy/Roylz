@@ -1,0 +1,32 @@
+.roylz{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+      
+}
+.roylz > div {
+    width: 1500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    align-items: center;
+    
+}
+body{
+    font-family: Papyrus;
+}
+.Nav{
+    border-style: solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.AS{
+    border-radius: 100px;
+}
+
+#boss{
+    display: flex;
+    justify-content: center;
+}
