@@ -41,9 +41,12 @@ const league = [
 },
 ]
 console.log("hello")
+const container2 = document.createElement("div")
+
 
 league.forEach(league =>{
     //create instance of the element specified for tag
+   
     const container = document.createElement("div");
     const photoPic = document.createElement("img");
     const playList = document.createElement("ul");
@@ -76,8 +79,12 @@ league.forEach(league =>{
     players4.appendChild(newRoles);
     players5.appendChild(newChamp);
 
+    
 
-
+    photoPic.height = 170;
+    photoPic.style.border="solid";
+    photoPic.style.boxShadow = "5px 10px" ;
+    
     photoPic.src = league.pic;
 
 

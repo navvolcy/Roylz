@@ -5,7 +5,7 @@
       
 }
 .roylz > div {
-    width: 1500px;
+    max-width: 5%;
     margin: 10px;
     text-align: center;
     line-height: 50px;
@@ -24,6 +24,8 @@ body{
 
 .photo{
     border-radius: 100px;
+    max-width: 50% ;
+    object-fit: 50%;
 }
 
 #boss{
